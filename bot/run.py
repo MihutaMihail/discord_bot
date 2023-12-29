@@ -62,7 +62,7 @@ def add_command_to_history(context) :
 # // --------------------------------------------------------------------- \\ #
   ### BOT Commands ###
 # // --------------------------------------------------------------------- \\ #
-  # Help commands
+  # Help command
 
 @commands.check(not_bot)
 @commands.check(user_in_hashmap)
