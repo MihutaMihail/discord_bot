@@ -25,6 +25,24 @@ This folder contains all classes used inside **bot/run.py**
 
 # Bot
 
+## Installation
+In this section, you'll find how to integrate this bot and use it in your own discord server. 
+
+Note, this will not touch on the subject of how to create a bot or how to add it to your own server.
+
+As shown above, in the **Project Structure Overview**, there are multiple elements that are required for the bot to work.
+
+### Steps
+**(1)** You must first create a new Google Colaboratory file.
+
+**(2)** You will then take each block of code and add it to a cell. Each block of code, meaning each **file_name.py** will be added to their own cell inside the colab file. I recommend that you have the **require/require.py** at the top, following that, the **bot/run.py** and ending with each individual file inside **class/**.
+
+**(3)** You then need to execute the code of each cell for them to be taken into account and making sure that there's no errors in the cell. For this, there is a little circle with an arrow inside on the top left corner of the cell. You must have a green tick next to that circle after executing. You can execute them in any order except the bot cell itself, which will be ran at the end.
+
+**(4)** Add your own bot token that is located at the end of the bot cell.
+
+**(5)** Execute bot cell and you should have a message saying **Bot has connected to discord !**. The bot should now be online in your discord server and ready for use.
+
 ## Commands
 
 In this section, you'll find detailed descriptions of all the commands available to use. <br>
@@ -38,10 +56,10 @@ Used for getting a description of all commands available. Same purpose as this s
 Used for testing if a command works as well as adding it to the history of commands that every user has.
 
 ### ```!start_conversation```
-Used for starting a quick chat where the bot will ask you some questions that you may or may not need help with.
+Used for starting a quick chat where the bot will ask you some questions that you may or may not need help with. You must answer with **no** or **yes**. Any other message will not advance the conversation.
 
 ### ```!reset_conversation```
-Used for restarting a conversation that has ended. A conversation has reached its end when the bot responds by giving you an answer to the wanted question, and if you want to continue, a message indicating that the conversation has ended will appear. Note, you don't have to reach the end of the conversation to use this command.
+Used for restarting a conversation that has ended. A conversation has reached its end when the bot responds with an answer to question. If you want to continue, a message indicating that the conversation has ended will appear. Note, you don't have to reach the end of the conversation to use this command.
 
 ### ```!speak_about```
 Used for asking the bot if the conversation mentions a specific topic. Remember, after typing the command, you must pass it a parameter or an error will appear. The parameter will be simply written after the command (and a space).
@@ -65,4 +83,4 @@ Used for showing the history of commands of the user that has typed this command
 Used for deleting the history of commands.
 
 ### ```!find_words```
-Used for finding words from the English alphabet from random letters. This function will need a parameter in which you can type any letter or combination of letters and the bot will give you 50 words that you can make with those combinations of letters. Note, words that are shorter than 3 letters will not be shown. In addition, the words shown will not necessarily contain all the letters that you have used. It searches words that can you made with your combination of letters but will not try to use every letter.
+Used for finding words from the English alphabet from random letters. This function will need a parameter in which you can type any letter or combination of letters and the bot will give you 50 words that you can make with those combinations of letters. Note, words that are shorter than 3 letters will not be shown. In addition, the words shown will not necessarily contain all the letters that you have used. It searches words that can you make with your combination of letters but will not try to use every letter.
