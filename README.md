@@ -1,4 +1,12 @@
-# Introduction
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Structure Overview](#project-structure-overview)
+- [Installation](#installation)
+- [Commands](#commands)
+- [Sources](#sources)
+
+## Introduction
 
 The purpose of this bot is to integrate the newly learned things : <br>
 → Chained list <br>
@@ -23,7 +31,7 @@ This folder contains all commands / events or any other function that is related
 ### • *class*
 This folder contains all classes used inside **bot/run.py**
 
-# Bot
+## Bot
 
 ## Installation
 In this section, you'll find how to integrate this bot and use it in your own discord server. 
@@ -85,11 +93,11 @@ Used for deleting the history of commands.
 ### ```!find_words```
 Used for finding words from the English alphabet from random letters. This function will need a parameter in which you can type any letter or combination of letters and the bot will give you 50 words that you can make with those combinations of letters. Note, words that are shorter than 3 letters will not be shown. In addition, the words shown will not necessarily contain all the letters that you have used. It searches words that can you make with your combination of letters but will not try to use every letter.
 
-# Sources
+## Sources
 
 In this section, you'll find the multiple sources that I have used for multiple things across this project.
 
-## Chatgpt
+### Chatgpt
 → Get some specific attributes from **context** like **ctx.invoke_with** which returns the command name without the prefix "**!**"
 
 → Using **@commands.check(function_name())** before a bot command. This will be ran before the bot command and will exit out of the command if the function returns False.
@@ -107,7 +115,7 @@ In this section, you'll find the multiple sources that I have used for multiple 
 
 → Learned about set() which makes a string into an unordered collection of unique elements. In this case, it is used to separate the **word** and the **letters** into a collection of unique elements to compare them
 
-## Stackoverflow
+### Stackoverflow
 → https://stackoverflow.com/questions/62771154/discord-py-rewrite-sending-an-error-message-when-there-is-an-unknown-command-or <br>
 For the on_command_error
 
