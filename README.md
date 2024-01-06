@@ -9,9 +9,9 @@
 ## Introduction
 
 The purpose of this bot is to integrate the newly learned things : <br>
-→ Chained list <br>
-→ Hashmap <br>
-→ Binary tree 
+• Chained list <br>
+• Hashmap <br>
+• Binary tree 
 
 The data structures have been manually made which entails the creation of multiple elements like the node itself which has the information of the next node with his own value, the chained list having its first node, etc. <br>
 
