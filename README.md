@@ -57,40 +57,40 @@ In this section, you'll find detailed descriptions of all the commands available
 
 The command will be highlighted and should be written in discord as it is written here. All commands have the prefix "**!**". 
 
-### ```!help```
+#### ```!help```
 Used for getting a description of all commands available. Same purpose as this section but less detailed.
 
-### ```!test_command```
+#### ```!test_command```
 Used for testing if a command works as well as adding it to the history of commands that every user has.
 
-### ```!start_conversation```
+#### ```!start_conversation```
 Used for starting a quick chat where the bot will ask you some questions that you may or may not need help with. You must answer with **no** or **yes**. Any other message will not advance the conversation.
 
-### ```!reset_conversation```
+#### ```!reset_conversation```
 Used for restarting a conversation that has ended. A conversation has reached its end when the bot responds with an answer to question. If you want to continue, a message indicating that the conversation has ended will appear. Note, you don't have to reach the end of the conversation to use this command.
 
-### ```!speak_about```
+#### ```!speak_about```
 Used for asking the bot if the conversation mentions a specific topic. Remember, after typing the command, you must pass it a parameter or an error will appear. The parameter will be simply written after the command (and a space).
 
-### ```!show_hashmap```
+#### ```!show_hashmap```
 Used for displaying the hashmap. The hashmap contains the user ID which is used as the key and a chained list as the value. The chained list is the history of commands. Note, every user has their own history of commands and this history will deleted as soon as the bot is turned off.
 
-### ```!last_command```
+#### ```!last_command```
 Used for showing the last command used. Note, each command will have a number in parantheses (like this (2)). This number represents the index in the chained list. Having 2 means that this is the 3rd element in the commands history.
 
-### ```!move_up_history```
+#### ```!move_up_history```
 Used for showing the next command used in the history of commands.
 
-### ```!move_down_history```
+#### ```!move_down_history```
 Used for showing the previous command used in the history of commands.
 
-### ```!show_history```
+#### ```!show_history```
 Used for showing the history of commands of the user that has typed this command.
 
-### ```!delete_history```
+#### ```!delete_history```
 Used for deleting the history of commands.
 
-### ```!find_words```
+#### ```!find_words```
 Used for finding words from the English alphabet from random letters. This function will need a parameter in which you can type any letter or combination of letters and the bot will give you 50 words that you can make with those combinations of letters. Note, words that are shorter than 3 letters will not be shown. In addition, the words shown will not necessarily contain all the letters that you have used. It searches words that can you make with your combination of letters but will not try to use every letter.
 
 ## Sources
